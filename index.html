@@ -1,0 +1,331 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="GreenVibe, pilihan tanaman hias untuk menghadirkan keindahan alam ke dalam ruangan.">
+    <title>GreenVibe | Bring Nature to Your Space</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">
+                Green<span>Vibe</span><i>.</i>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle"
+                aria-label="Buka menu navigasi"
+                aria-expanded="false"
+                aria-controls="navMenu">
+                ☰
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#produk" class="nav-link">Produk</a></li>
+                <li><a href="#tentang" class="nav-link">Tentang Kami</a></li>
+                <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
+                <li><a href="#kontak" class="nav-contact">Hubungi Kami ↗</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <!-- HOME / HERO -->
+        <section class="hero container" id="home">
+            <div class="hero-content">
+                <span class="eyebrow">
+                    <span class="dot"></span>
+                    YOUR GREEN LIVING PARTNER
+                </span>
+
+                <h1>
+                    Bring Nature<br>
+                    to Your <span>Space.</span>
+                </h1>
+
+                <p>
+                    Hadirkan keindahan alam ke dalam hidupmu.
+                    Temukan tanaman hias pilihan untuk membuat
+                    setiap sudut ruangan terasa lebih segar,
+                    nyaman, dan penuh kehidupan.
+                </p>
+
+                <div class="hero-buttons">
+                    <a href="#produk" class="btn btn-primary">
+                        Jelajahi Tanaman <span>↗</span>
+                    </a>
+                    <a href="#tentang" class="btn btn-secondary">
+                        Kenali Kami
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span>🌿</span>
+                    <p>Little plants, <strong>big happiness.</strong></p>
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="hero-image">
+                    <img
+                        src="GreenVibe Botanical Emblem.png"
+                        alt="Tanaman hias dalam pot untuk dekorasi rumah">
+                </div>
+
+                <div class="floating-card">
+                    <span class="floating-icon">✿</span>
+                    <div>
+                        <strong>A little more green</strong>
+                        <p>A little more life.</p>
+                    </div>
+                </div>
+
+                <span class="decor decor-one">✳</span>
+                <span class="decor decor-two">✦</span>
+            </div>
+        </section>
+
+        <!-- KEUNGGULAN SINGKAT -->
+        <section class="quick-features">
+            <div class="container feature-row">
+                <div class="quick-feature">
+                    <span>🌱</span>
+                    <div>
+                        <strong>Tanaman Pilihan</strong>
+                        <p>Untuk berbagai ruangan</p>
+                    </div>
+                </div>
+
+                <div class="quick-feature">
+                    <span>🪴</span>
+                    <div>
+                        <strong>Gaya Natural</strong>
+                        <p>Indah dan menenangkan</p>
+                    </div>
+                </div>
+
+                <div class="quick-feature">
+                    <span>💚</span>
+                    <div>
+                        <strong>Green Lifestyle</strong>
+                        <p>Lebih dekat dengan alam</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRODUK -->
+        <section class="products section" id="produk">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">OUR COLLECTION</span>
+                    <h2>Find Your Green <em>Companion.</em></h2>
+                    <p>
+                        Setiap tanaman memiliki pesonanya sendiri.
+                        Temukan yang paling cocok untuk ruang favoritmu.
+                    </p>
+                </div>
+
+                <div class="product-grid">
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=700&q=85"
+                                alt="Tanaman hias hijau">
+                            <span class="product-tag">TROPICAL</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">TANAMAN HIAS</span>
+                            <h3>Monstera</h3>
+                            <p>Daun unik untuk suasana tropis yang modern.</p>
+                            <h3>Rp. 69.999</h3>
+                            <a href="#kontak" class="product-link">
+                                Tanya Produk <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1497250681960-ef046c08a56e?auto=format&fit=crop&w=700&q=85"
+                                alt="Tanaman indoor hijau">
+                            <span class="product-tag">INDOOR</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">TANAMAN RUANGAN</span>
+                            <h3>Indoor Plants</h3>
+                            <p>Pilihan untuk meja kerja dan sudut ruangan.</p>
+                            <h3>Rp. 59.999</h3>
+                            <a href="#kontak" class="product-link">
+                                Tanya Produk <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="product-card">
+                        <div class="product-image">
+                            <img
+                                src="https://images.unsplash.com/photo-1509423350716-97f9360b4e09?auto=format&fit=crop&w=700&q=85"
+                                alt="Koleksi tanaman hias dalam pot">
+                            <span class="product-tag">DECORATIVE</span>
+                        </div>
+                        <div class="product-info">
+                            <span class="product-category">KOLEKSI HIJAU</span>
+                            <h3>Green Collection</h3>
+                            <p>Sentuhan alami untuk dekorasi yang menawan.</p>
+                            <h3>Rp. 34.999</h3>
+                            <a href="#kontak" class="product-link">
+                                Tanya Produk <span>↗</span>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- TENTANG PERUSAHAAN -->
+        <section class="about section" id="tentang">
+            <div class="container about-grid">
+                <div class="about-visual">
+                    <img
+                        src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?auto=format&fit=crop&w=900&q=85"
+                        alt="Aktivitas merawat tanaman">
+                    <div class="about-caption">
+                        <span>🌿</span>
+                        <div>
+                            <strong>GreenVibe</strong>
+                            <p>Bring Nature to Your Space</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="about-content">
+                    <span class="eyebrow">ABOUT GREENVIBE</span>
+                    <h2>Small Green Things,<br><em>Beautiful Changes.</em></h2>
+
+                    <p>
+                        GreenVibe adalah perusahaan yang bergerak
+                        di bidang penjualan tanaman hias untuk
+                        mempercantik rumah, kantor, dan berbagai
+                        ruang lainnya.
+                    </p>
+
+                    <p>
+                        Kami percaya bahwa tanaman bukan sekadar
+                        dekorasi, tetapi juga cara sederhana untuk
+                        menghadirkan nuansa alam dalam kehidupan
+                        sehari-hari. Kami ingin menginspirasi lebih
+                        banyak orang untuk mencintai tanaman dan
+                        menciptakan ruang yang nyaman.
+                    </p>
+
+                    <a href="#keunggulan" class="text-link">
+                        Kenali keunggulan kami <span>→</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- KEUNGGULAN -->
+        <section class="benefits section" id="keunggulan">
+            <div class="container">
+                <div class="section-heading">
+                    <span class="eyebrow">WHY GREENVIBE?</span>
+                    <h2>Green Living, <em>Made Simple.</em></h2>
+                    <p>
+                        Membawa tanaman ke dalam kehidupan sehari-hari
+                        dengan cara yang menyenangkan.
+                    </p>
+                </div>
+
+                <div class="benefit-grid">
+                    <article class="benefit-card">
+                        <div class="benefit-icon">🌿</div>
+                        <h3>Tanaman Pilihan</h3>
+                        <p>
+                            Berbagai pilihan tanaman hias untuk
+                            memperindah ruang favoritmu.
+                        </p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="benefit-icon">🤍</div>
+                        <h3>Pelayanan Ramah</h3>
+                        <p>
+                            Membantu pelanggan menemukan tanaman
+                            yang sesuai dengan kebutuhannya.
+                        </p>
+                    </article>
+
+                    <article class="benefit-card">
+                        <div class="benefit-icon">🌎</div>
+                        <h3>Peduli Lingkungan</h3>
+                        <p>
+                            Mengajak masyarakat untuk lebih dekat
+                            dengan alam melalui tanaman.
+                        </p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- KONTAK -->
+        <section class="contact-section" id="kontak">
+            <div class="container contact-box">
+                <span class="eyebrow">LET'S GET GREEN</span>
+                <h2>Ready to grow something <em>beautiful?</em></h2>
+                <p>
+                    Mulai perjalanan hijaumu dan temukan tanaman
+                    yang tepat bersama GreenVibe.
+                </p>
+                <a href="mailto:hello@greenvibe.com" class="btn btn-light">
+                    Hubungi GreenVibe ↗
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container footer-inner">
+            <a href="#home" class="logo footer-logo">
+                Green<span>Vibe</span><i>.</i>
+            </a>
+            <p>Bring Nature to Your Space 🌿</p>
+            <p class="copyright">
+                &copy; <span id="year"></span> GreenVibe.
+                All rights reserved.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#193d2b">
+
+    <meta name="description"
+          content="GreenVibe - Bring Nature to Your Space.">
+
+    <title>Home | GreenVibe</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
